@@ -1,0 +1,70 @@
+#Visual settings
+[visual]
+	#Use Vanilla Style GUI and Background
+	#If set to true, the custom GUI and background will be replaced by the standard vanilla dark background.
+	useVanillaStyleUI = false
+	#Typing Speed (ms/char)
+	#Lower value means faster typing speed. Set to 0 to display immediately.
+	# Default: 20
+	# Range: 0 ~ 200
+	charDelay = 20
+	#Message Pause Interval (ms)
+	#Pause Time between continuous messages. Set to 0 to disable pausing.
+	# Default: 1000
+	# Range: 0 ~ 10000
+	msgPause = 1000
+
+#Scrolling settings
+[scrolling]
+	#Rate of Scrolling
+	#Higher value means faster scrolling.
+	# Default: 25.0
+	# Range: 1.0 ~ 100.0
+	scrollRate = 25.0
+	#Scrolling Drag
+	#Smooth factor of scrolling. Lower value means smoother scrolling.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 1.0
+	smoothFactor = 0.30000001192092896
+
+#Open button settings
+[button]
+	#Whether to display the 'Open Screen' button or not
+	#If true, the button will be displayed on every container screens.
+	#This won't work if you have installed FTB Library.
+	displayOpenButton = true
+	#X position of the 'Open Screen' button (pixel)
+	#The distance between button and the left edge of screen.
+	#This won't work if you have installed FTB Library.
+	# Default: 5
+	# Range: 0 ~ 1000
+	openButtonX = 5
+	#Y position of the 'Open Screen' button
+	#The distance between button and the top edge of screen.
+	#This won't work if you have installed FTB Library.
+	# Default: 5
+	# Range: 0 ~ 1000
+	openButtonY = 5
+
+#HUD settings
+[hud]
+	#Notification Mode
+	#How new messages are displayed.
+	#Other HUD settings are only available when this is set to 'HUD'.
+	#Allowed Values: HUD, TOAST, NONE
+	notificationMode = "HUD"
+	#Scale of the HUD
+	#The total size multiplier of HUD. 1.0 means original size.
+	# Default: 0.75
+	# Range: 0.1 ~ 1.0
+	hudScale = 0.75
+	#Vertical Offset from screen center (pixel)
+	#Relative to the center. Positive value moves HUD down, negative moves up.
+	# Default: 60
+	# Range: -1000 ~ 1000
+	hudOffsetY = 60
+	#Top Margin (Safety Line) (pixel)
+	#Messages won't be rendered if they go above this Y position to prevent overlapping.
+	# Default: 20
+	# Range: 0 ~ 1000
+	hudTopMargin = 20
