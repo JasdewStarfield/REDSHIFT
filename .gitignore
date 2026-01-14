@@ -12,3 +12,4 @@ usercache.json
 usernamecache.json
 REDSHIFT.jar
 options.txt
+config/iris.properties
