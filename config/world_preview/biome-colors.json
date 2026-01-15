@@ -1,0 +1,14 @@
+{
+  "redshift:wasteland": {
+    "r": 96,
+    "g": 112,
+    "b": 102,
+    "cave": false
+  },
+  "redshift:basalt_organ": {
+    "r": 9,
+    "g": 74,
+    "b": 90,
+    "cave": false
+  }
+}

@@ -7,37 +7,107 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "redshift:basalt_organ",
-          "parameters": {
-            "temperature": [0.8, 1.5],
-            "humidity": [-1.0, 0.0],
-            "continentalness": [0, 0],
-            "erosion": [0, 0],
-            "weirdness": [0.2, 1.0],
-            "depth": [0, 0],
-            "offset": 0
-          }
-        },
-        {
+          "//": "--- [气溶胶红树林] 变体1: 深层盆地 ---",
           "biome": "redshift:aerosol_mangroves",
           "parameters": {
-            "temperature": [0.0, 0.8],
-            "humidity": [0.5, 1.0],
-            "continentalness": [0, 0],
-            "erosion": [0, 0],
-            "weirdness": [-1.0, -0.2],
+            "temperature": [-1.0, 1.0],
+            "humidity": [-1.0, 1.0],
+            "continentalness": [-1.2, -0.45],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-2.0, 2.0],
             "depth": [0, 0],
             "offset": 0
           }
         },
         {
+          "//": "--- [气溶胶红树林] 变体2: 边缘浅滩 (压缩范围) ---",
+          "//_comment": "将上限回调至 -0.15，为边缘群系腾出空间",
+          "biome": "redshift:aerosol_mangroves",
+          "parameters": {
+            "temperature": [-0.5, 1.0],
+            "humidity": [0.0, 1.0],
+            "continentalness": [-0.45, -0.15],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-2.0, 2.0],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "//": "--- [红树林边缘] (新增) ---",
+          "//_comment": "在 -0.15 到 -0.05 的狭长带生成过渡群系 (粗泥地表)",
+          "biome": "redshift:aerosol_mangroves_edge",
+          "parameters": {
+            "temperature": [-1.0, 1.0],
+            "humidity": [-0.5, 1.0],
+            "continentalness": [-0.15, -0.05],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-2.0, 2.0],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "//": "--- [玄武岩管风琴] 变体1: 高耸尖峰 ---",
+          "biome": "redshift:basalt_organ",
+          "parameters": {
+            "temperature": [-1.0, 1.0],
+            "humidity": [-1.0, -0.2],
+            "continentalness": [-0.05, 1.5],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [0.5, 2.0],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "//": "--- [玄武岩管风琴] 变体2: 侵蚀高原 ---",
+          "biome": "redshift:basalt_organ",
+          "parameters": {
+            "temperature": [0.0, 1.5],
+            "humidity": [-1.0, -0.5],
+            "continentalness": [0.2, 1.5],
+            "erosion": [-1.0, -0.5],
+            "weirdness": [0.0, 0.5],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "//": "--- [废土] 变体1: 标准平原 ---",
           "biome": "redshift:wasteland",
           "parameters": {
-            "temperature": [-1.0, 0.0],
-            "humidity": [-1.0, 0.5],
-            "continentalness": [0, 0],
-            "erosion": [0, 0],
-            "weirdness": [-0.2, 0.2],
+            "temperature": [-1.0, 1.0],
+            "humidity": [-0.2, 1.0],
+            "continentalness": [-0.05, 1.0],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 0.5],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "//": "--- [废土] 变体2: 湿润高地填补 ---",
+          "biome": "redshift:wasteland",
+          "parameters": {
+            "temperature": [-1.0, 1.0],
+            "humidity": [-0.2, 1.0],
+            "continentalness": [-0.05, 1.5],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [0.5, 2.0],
+            "depth": [0, 0],
+            "offset": 0
+          }
+        },
+        {
+          "//": "--- [废土] 变体3: 干燥低地填补 ---",
+          "biome": "redshift:wasteland",
+          "parameters": {
+            "temperature": [-1.0, 1.0],
+            "humidity": [-1.0, -0.2],
+            "continentalness": [-0.05, 1.5],
+            "erosion": [-1.0, 1.0],
+            "weirdness": [-1.0, 0.5],
             "depth": [0, 0],
             "offset": 0
           }
