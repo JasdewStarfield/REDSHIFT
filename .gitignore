@@ -13,3 +13,5 @@ usernamecache.json
 REDSHIFT.jar
 options.txt
 config/iris.properties
+/crash-reports
+kubejs/config/probe-settings.json
