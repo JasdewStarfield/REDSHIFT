@@ -25,5 +25,20 @@
   "spawners": {},
   "spawn_costs": {},
   "carvers": {},
-  "features": []
+  "features": [
+    [],
+    [],
+    [
+      "redshift:mangrove_mud_spire"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "redshift:alien_mangrove_small"
+    ]
+  ]
 }

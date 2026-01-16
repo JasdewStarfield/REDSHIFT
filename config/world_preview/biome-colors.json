@@ -10,5 +10,11 @@
     "g": 74,
     "b": 90,
     "cave": false
+  },
+  "redshift:muddy_riverbed": {
+    "r": 251,
+    "g": 9,
+    "b": 140,
+    "cave": false
   }
 }
