@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "JasdewStarfield",
+      "uniqueId": "19dd3831-0d7b-404a-9c83-7b6bdb3f1627"
+    },
+    "time": 1768870063626,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kN2mTcKcIZ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "JasdewStarfield",
+      "uniqueId": "19dd3831-0d7b-404a-9c83-7b6bdb3f1627"
+    },
+    "time": 1768869410776,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pw3FnuvK1C"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "JasdewStarfield",
+      "uniqueId": "19dd3831-0d7b-404a-9c83-7b6bdb3f1627"
+    },
+    "time": 1768868213038,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ds0iyt3UDk"
+    }
+  }
+]

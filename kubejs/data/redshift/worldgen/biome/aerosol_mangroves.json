@@ -14,7 +14,11 @@
       },
       "probability": 0.02
     },
-    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "ambient_sound": "redshift:ambient.aerosol_mangroves.loop",
+    "additions_sound": {
+      "sound": "redshift:ambient.aerosol_mangroves.additions",
+      "tick_chance": 0.008
+    },
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",
       "tick_delay": 6000,

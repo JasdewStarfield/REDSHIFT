@@ -9,7 +9,11 @@
     "water_fog_color": 8613465,
     "foliage_color": 10258529,
     "grass_color": 10258529,
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop"
+    "ambient_sound": "redshift:ambient.aerosol_mangroves.loop",
+    "additions_sound": {
+      "sound": "redshift:ambient.aerosol_mangroves.additions",
+      "tick_chance": 0.003
+    }
   },
   "spawners": {},
   "spawn_costs": {},

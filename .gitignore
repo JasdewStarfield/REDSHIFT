@@ -17,3 +17,4 @@ config/iris.properties
 kubejs/config/probe-settings.json
 /screenshots
 /config/jei/world
+authlib-injector.log

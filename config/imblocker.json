@@ -9,7 +9,7 @@
     "enableScreenRecovering": false,
     "recoveredScreens": [],
     "englishStateImpl": "CONVERSION_STATUS",
-    "primaryEnglishState": "CJK"
+    "primaryEnglishState": "ENG"
   },
   "advanceSettings": {
     "enableCharSimulation": false

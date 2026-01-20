@@ -15,10 +15,10 @@
       },
       "probability": 0.1
     },
-    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "ambient_sound": "redshift:ambient.basalt_organ.loop",
     "additions_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.additions",
-      "tick_chance": 0.011
+      "sound": "redshift:ambient.basalt_organ.additions",
+      "tick_chance": 0.005
     }
   },
   "spawners": {},
