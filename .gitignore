@@ -18,3 +18,5 @@ kubejs/config/probe-settings.json
 /screenshots
 /config/jei/world
 authlib-injector.log
+config/packetfixer.properties
+/config/spark
